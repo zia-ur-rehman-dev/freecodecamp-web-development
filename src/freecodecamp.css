@@ -1,0 +1,98 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#topnav{
+    background-color: rgb(212, 142, 142);
+    display: flex;
+    justify-content:space-between;
+   position: fixed;
+   width: 100%;
+   overflow: hidden;
+
+}
+#topnav ul{
+    display: flex;
+}
+#topnav ul li {
+    margin-right: 100px;
+    list-style-type: none;  
+}
+#logo{
+    width: 100px;;
+    height: 40px;
+    padding: 10px 0 5px 20px;
+    
+}
+
+/* nav bar end */
+
+
+/* top img  start*/
+#topimg img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.about{
+text-align: center;
+}
+
+.sidebyside{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.discription{
+    width: 50%;
+   padding: 0 20px 0 20px;
+}
+.teamimg{
+    width: 50%;
+}
+
+.teamimg img{
+    border-radius: 10px;
+}
+
+
+/* job section starting */
+
+h2{
+text-align: center;
+}
+.Jobsection{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;  
+}
+ h3{
+    margin-bottom: 0%;
+ }
+
+ .apply{
+    float: right;
+ }
+ .footer{
+    background-color: rgb(223, 244, 244);
+    height: 100px;
+    padding: 8px;
+text-align: center;
+
+    
+ }
+  
+ .footer a{
+    text-decoration: none
+    
+
+ }
+ 
+ .footer li {
+    display: inline;
+    margin: 0 16px;
+    
+
+ }
+ 
